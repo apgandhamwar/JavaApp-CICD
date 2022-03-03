@@ -10,11 +10,11 @@
     </server>
   </servers>
 
-  <!-- <mirrors>
+  <mirrors>
     <mirror>
       <mirrorOf>*</mirrorOf>
-      <name>maven-remote</name>
-      <url>https://javaapprepo.jfrog.io/artifactory/maven-remote</url>
+      <name>default-maven-remote</name>
+      <url>https://javaapprepo.jfrog.io/artifactory/default-maven-remote/</url>
       <id>nexus-premise</id>
-  </mirrors> -->
+  </mirrors>
 </settings>

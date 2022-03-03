@@ -1,5 +1,5 @@
 <settings>
-  <localRepository>C:\ProgramData\Jenkins\.jenkins\workspace\JavaApp-Declarative-Pipeline\.m2</localRepository>
+  <localRepository>C:\ProgramData\Jenkins\.jenkins\workspace\JavaApp-Declarative-Pipeline\.m2\</localRepository>
   <servers>
     <server>
       <id>nexus-premise</id>
@@ -17,4 +17,21 @@
       <url>https://repo1.maven.org/maven2/</url>
       <id>central</id>
   </mirrors>
+  <profiles>
+    <profile>
+       <id>MavenRepository</id>
+           <repositories>
+            <repository>
+                <id>central</id>
+                <url>https://repo1.maven.org/maven2</url>
+                <snapshots>
+                    <enabled>false</enabled>
+                </snapshots>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+            </repository>
+        </repositories>
+    </profile>
+</profiles>
 </settings>

@@ -20,8 +20,8 @@ pipeline {
   }
 
   tools {
-    jdk 'JDK'
-    maven 'Maven'
+    jdk 'java-8'
+    maven 'maven-3'
     }
 
   environment {

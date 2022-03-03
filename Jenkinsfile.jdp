@@ -1,7 +1,7 @@
 /* Pipeline */
 
 pipeline {
-  agent { label "master" }
+  agent any
 
 /* Dynamic variable assignment */
 
@@ -20,8 +20,8 @@ pipeline {
   }
 
   tools {
-    jdk 'java-8'
-    maven 'maven-3'
+    jdk 'JDK'
+    maven 'Maven'
     }
 
   environment {

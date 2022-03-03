@@ -10,14 +10,14 @@
 	</parent>
 	<groupId>io.learnk8s</groupId>
 	<artifactId>knote-java</artifactId>
-	<version>4.0.0-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>knote</name>
 	<description>Knote</description>
 
 	<scm>
-		<connection>scm:git:https://github.com/arnabnandy1706/javaapp-cicd.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/arnabnandy1706/javaapp-cicd.git</developerConnection>
-		<url>https://github.com/arnabnandy1706/javaapp-cicd</url>
+		<connection>scm:git:https://github.com/apgandhamwar/JavaApp-CICD.git</connection>
+		<developerConnection>scm:git:ssh://github.com/apgandhamwar/JavaApp-CICD.git</developerConnection>
+		<url>https://github.com/apgandhamwar/JavaApp-CICD.git</url>
 		<tag>HEAD</tag>
   	</scm>
 
@@ -77,12 +77,12 @@
    </repositories> -->
    <distributionManagement>
       <repository>
-         <id>nexus-premise</id>
-         <url>http://ec2-15-206-189-141.ap-south-1.compute.amazonaws.com:8081/repository/knoteapp-RELEASE/</url>
+         <id>central</id>
+         <url>https://javaapprepo.jfrog.io/artifactory/JavaAppRELEASE/</url>
       </repository>
 	  <snapshotRepository>
-            <id>nexus-premise</id>
-            <url>http://ec2-15-206-189-141.ap-south-1.compute.amazonaws.com:8081/repository/knoteapp-SNAPSHOT/</url>
+            <id>central</id>
+            <url>https://javaapprepo.jfrog.io/artifactory/JavaAppSNAPSHOT/</url>
         </snapshotRepository>
    </distributionManagement>
 

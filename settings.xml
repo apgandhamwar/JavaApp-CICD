@@ -13,7 +13,7 @@
   <mirrors>
     <mirror>
       <mirrorOf>*</mirrorOf>
-      <name>default-maven-virtual</name>
+      <name>maven-remote</name>
       <url>https://javaapprepo.jfrog.io/artifactory/maven-remote</url>
       <id>nexus-premise</id>
   </mirrors>

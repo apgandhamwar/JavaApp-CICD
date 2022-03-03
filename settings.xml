@@ -14,7 +14,7 @@
     <mirror>
       <mirrorOf>*</mirrorOf>
       <name>default-maven-remote</name>
-      <url>https://javaapprepo.jfrog.io/artifactory/default-maven-remote/</url>
-      <id>nexus-premise</id>
+      <url>https://repo1.maven.org/maven2/</url>
+      <id>central</id>
   </mirrors>
 </settings>

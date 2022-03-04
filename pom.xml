@@ -77,11 +77,11 @@
    </repositories>
    <distributionManagement>
       <repository>
-         <id>central</id>
+         <id>nexus-premise</id>
          <url>https://javaapprepo.jfrog.io/artifactory/JavaAppRELEASE/</url>
       </repository>
 	  <snapshotRepository>
-            <id>central</id>
+            <id>nexus-premise</id>
             <url>https://javaapprepo.jfrog.io/artifactory/JavaAppSNAPSHOT/</url>
         </snapshotRepository>
    </distributionManagement>

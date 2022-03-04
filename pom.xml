@@ -41,6 +41,17 @@
 			<id>central</id>
 			<url>https://repo1.maven.org/maven2/</url>
 		</repository>
+
+        <repository>
+            <id>spring-snapshots</id>
+            <url>https://repo1.spring.io/snapshot</url>
+            <snapshots><enabled>true</enabled></snapshots>
+        </repository>
+        <repository>
+            <id>spring-milestones</id>
+            <url>https://repo1.spring.io/milestone</url>
+        </repository>
+
 	</repositories>
 
 	<dependencies>
@@ -106,17 +117,6 @@
 		</plugins>
 	</build>
 
-	<repositories>
-        <repository>
-            <id>spring-snapshots</id>
-            <url>https://repo1.spring.io/snapshot</url>
-            <snapshots><enabled>true</enabled></snapshots>
-        </repository>
-        <repository>
-            <id>spring-milestones</id>
-            <url>https://repo1.spring.io/milestone</url>
-        </repository>
-    </repositories>
     <pluginRepositories>
         <pluginRepository>
             <id>spring-snapshots</id>

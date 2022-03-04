@@ -10,12 +10,12 @@
     </server>
   </servers>
 
-  <mirrors>
+  <!-- <mirrors>
     <mirror>
       <mirrorOf>*</mirrorOf>
       <name>default-maven-remote</name>
       <url>https://repo1.maven.org/maven2/</url>
       <id>central</id>
-  </mirrors>
+  </mirrors> -->
 
 </settings>

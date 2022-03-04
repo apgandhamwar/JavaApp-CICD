@@ -36,6 +36,13 @@
 				</configuration>
 	</plugin> -->
 
+	<repositories>
+		<repository>
+			<id>central</id>
+			<url>https://repo1.maven.org/maven2/</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -69,12 +76,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<repositories>
-      <repository>
-         <id>central</id>
-         <url>https://repo1.maven.org/maven2/</url>
-      </repository>
-   </repositories>
+	
    <distributionManagement>
       <repository>
          <id>nexus-premise</id>
